@@ -22,3 +22,5 @@ async function main() {
     const {default: code} = await import(`Day/${day}/code ${problem}.js`);
     await code(input);
 }
+
+main();
