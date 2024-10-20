@@ -1,0 +1,28 @@
+{
+  "name": "aoc2015",
+  "version": "1.0.0",
+  "description": "Advent of Code 2015",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chad3814/AoC2015.git"
+  },
+  "keywords": [
+    "aoc",
+    "adventofcode",
+    "2015"
+  ],
+  "author": "Chad Walker <chad@cwalker.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chad3814/AoC2015/issues"
+  },
+  "homepage": "https://github.com/chad3814/AoC2015#readme",
+  "devDependencies": {
+    "@types/node": "^22.7.7",
+    "typescript": "^5.6.3"
+  }
+}
