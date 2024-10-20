@@ -18,8 +18,12 @@ async function main() {
         process.exit(1);
     }
 
-    const input = await readFile(`Day ${day}/input.txt`, 'utf-8');
-    const {default: code} = await import(`Day/${day}/code ${problem}.js`);
+    let input = await readFile(`Day ${day}/input.txt`, 'utf-8');
+    const {default: code} = await import(`./Day ${day}/code ${problem}.js`);
+
+    if (process.argv.length > 4) {
+        input = process.argv[4];
+    }
     await code(input);
 }
 
